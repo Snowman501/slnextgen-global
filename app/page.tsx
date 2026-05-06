@@ -44,6 +44,23 @@ export default function Home() {
 
 
 
+      <section className="px-6 py-16 max-w-6xl mx-auto">
+        <h2 className="text-3xl font-black text-white text-center mb-12">Why SL NextGen?</h2>
+        <div className="grid grid-cols-1 gap-6">
+          <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">We Actually Build It</h3>
+            <p className="text-gray-500">No outsourcing. No templates. We build your system from scratch the same way a mechanic builds an engine.</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Zero Fluff Guarantee</h3>
+            <p className="text-gray-500">Every dollar you spend goes into the system — not into sales calls, account managers, or fancy offices.</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Built By People Who Get It</h3>
+            <p className="text-gray-500">We started with nothing and built this with free tools and hard work. We know exactly what small businesses need.</p>
+          </div>
+        </div>
+      </section>
       <section id="contact" className="bg-[#F97316] py-16 px-6 text-center">
         <h2 className="text-3xl font-black text-white mb-4">Ready to Compete With the Big Players?</h2>
         <p className="text-white opacity-90 mb-8">Built by a mechanic and a writer — 27 years of synergy, zero fluff.</p>
