@@ -17,6 +17,10 @@ export default function Home() {
 
 
 
+      <section className="px-6 py-16 max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl font-black text-white mb-6">Our Story</h2>
+        <p className="text-blue-200 text-lg mb-6">A mechanic and a writer. 27 years of synergy. Zero shortcuts.</p>
+      </section>
       <section className="px-6 pb-20 max-w-6xl mx-auto">
         <h2 className="text-3xl font-black text-white text-center mb-12">What We Build For You</h2>
         <div className="grid grid-cols-1 gap-6">
