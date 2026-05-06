@@ -35,9 +35,6 @@ export default function Home() {
           <p className="text-sm text-gray-500">Automated delivery systems via n8n to keep you visible 24/7.</p>
         </div>
       </section>
-    </main>
-  );
-}
 
       {/* Final Call to Action */}
       <section className="bg-[#1E3A8A] py-16 px-6 text-center text-white">
