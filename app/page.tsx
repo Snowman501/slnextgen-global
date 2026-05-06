@@ -61,6 +61,23 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="px-6 py-16 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-black text-white text-center mb-12">Common Questions</h2>
+        <div className="space-y-4">
+          <div className="bg-white p-6 rounded-2xl">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Do I need to know anything about AI?</h3>
+            <p className="text-gray-500">Not at all. We handle everything. You tell us your goals and we build the system.</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">How fast can you start?</h3>
+            <p className="text-gray-500">Within 48 hours of your first email.</p>
+          </div>
+          <div className="bg-white p-6 rounded-2xl">
+            <h3 className="font-bold text-[#1E3A8A] mb-2">What if I am not happy?</h3>
+            <p className="text-gray-500">We fix it. We do not stop until your system works.</p>
+          </div>
+        </div>
+      </section>
       <section id="contact" className="bg-[#F97316] py-16 px-6 text-center">
         <h2 className="text-3xl font-black text-white mb-4">Ready to Compete With the Big Players?</h2>
         <p className="text-white opacity-90 mb-8">Built by a mechanic and a writer — 27 years of synergy, zero fluff.</p>
