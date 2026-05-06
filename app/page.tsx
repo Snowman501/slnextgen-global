@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="px-6 py-16 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-black text-white mb-6">Our Story</h2>
-        <p className="text-blue-200 text-lg mb-6">A mechanic and a writer. 27 years of synergy. Zero shortcuts.</p>
+        <p className="text-blue-200 text-lg mb-6">Loren spent over a decade diagnosing electrical faults in cars — chasing shorts, reading wiring diagrams, fixing what others could not. When disability forced him off the shop floor, he brought that same precision to the digital world. Together with Stacy — his partner of 27 years — they built SL NextGen Digital from scratch. No investors. No agency. Just mechanical thinking applied to digital systems.</p>
       </section>
       <section className="px-6 pb-20 max-w-6xl mx-auto">
         <h2 className="text-3xl font-black text-white text-center mb-12">What We Build For You</h2>
