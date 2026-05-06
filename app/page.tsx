@@ -1,50 +1,50 @@
-import { AgencyData } from '../data/content';
-
+"use client";
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F7F9FC]">
-      {/* Fixed Mobile Nav */}
-      <nav className="p-4 flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-auto gap-4">
-        <div className="text-xl font-bold text-[#1E3A8A]">SL <span className="text-[#F97316]">NextGen</span> Digital</div>
-        <a href={`mailto:${AgencyData.email}`} className="bg-[#F97316] text-white px-4 py-2 rounded-md text-sm font-bold shadow-md">Work With Us</a>
+    <main className="min-h-screen bg-[#0F172A]">
+      <nav className="p-6 flex justify-between items-center">
+        <div className="text-xl font-bold text-white">SL NextGen Digital</div>
+        <a href="#contact" className="bg-[#F97316] text-white px-4 py-2 rounded-md font-bold">Get Started</a>
       </nav>
 
-      {/* Hero Section */}
-      <section className="pt-12 pb-20 px-6 max-w-6xl mx-auto text-center">
-        <span className="text-[#F97316] font-bold text-xs tracking-tighter uppercase">27 Years of Synergy</span>
-        <h1 className="text-4xl md:text-7xl font-black text-[#1E3A8A] leading-tight mt-2 mb-6">
-          High-Performance Content Architecture
-        </h1>
-        <p className="text-lg text-gray-600 max-w-xl mx-auto mb-10">
-          Built by a mechanic with a writer's soul. We engineer 30-day social media systems that don't misfire.
-        </p>
+
+
+      <section className="pt-16 pb-24 px-6 text-center">
+        <h1 className="text-4xl font-black text-white mb-6">We Build AI Systems That Grow Small Businesses</h1>
+        <p className="text-lg text-blue-200 max-w-2xl mx-auto mb-10">From automated lead generation to done-for-you content engines.</p>
+        <a href="#contact" className="bg-[#F97316] text-white px-10 py-4 rounded-full font-bold inline-block">Book a Free Strategy Call</a>
       </section>
 
-      {/* The Diagnostic Cards */}
-      <section className="px-6 pb-20 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#1E3A8A]">
-          <h3 className="font-bold text-[#1E3A8A] mb-2">Systems Audit</h3>
-          <p className="text-sm text-gray-500">We diagnose where your brand voice is leaking engagement.</p>
-        </div>
-        <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#F97316]">
-          <h3 className="font-bold text-[#F97316] mb-2">Precision Tuning</h3>
-          <p className="text-sm text-gray-500">Custom content calendars built from scratch—no templates.</p>
-        </div>
-        <div className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-[#1E3A8A]">
-          <h3 className="font-bold text-[#1E3A8A] mb-2">Full Throttle</h3>
-          <p className="text-sm text-gray-500">Automated delivery systems via n8n to keep you visible 24/7.</p>
+
+
+      <section className="px-6 pb-20 max-w-6xl mx-auto">
+        <h2 className="text-3xl font-black text-white text-center mb-12">What We Build For You</h2>
+        <div className="grid grid-cols-1 gap-6">
+          <div className="bg-white p-8 rounded-2xl border-t-4 border-[#1E3A8A]">
+            <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">AI Lead Machine</h3>
+            <p className="text-gray-500 mb-4">Automated system that finds local business leads while you sleep.</p>
+            <p className="text-2xl font-black text-[#F97316]">$297 one-time</p>
+          </div>
+          <div className="bg-white p-8 rounded-2xl border-t-4 border-[#F97316]">
+            <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">Content Engine</h3>
+            <p className="text-gray-500 mb-4">30 days of AI-powered social content delivered automatically.</p>
+            <p className="text-2xl font-black text-[#F97316]">$497/month</p>
+          </div>
+          <div className="bg-white p-8 rounded-2xl border-t-4 border-[#1E3A8A]">
+            <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">Full AI System</h3>
+            <p className="text-gray-500 mb-4">Complete digital presence — leads, content, web design and automation.</p>
+            <p className="text-2xl font-black text-[#F97316]">$997 full build</p>
+          </div>
         </div>
       </section>
 
-      {/* Final Call to Action */}
-      <section className="bg-[#1E3A8A] py-16 px-6 text-center text-white">
-        <h2 className="text-3xl font-bold mb-4">Ready for a Tune-Up?</h2>
-        <p className="mb-8 opacity-90">Get your 7-day sample content engine diagnostic today.</p>
-        <a href="mailto:Lb.designstudio.2024@gmail.com" 
-           className="bg-[#F97316] hover:bg-orange-600 text-white px-10 py-4 rounded-full font-bold transition-all inline-block">
-          Email the Lab
-        </a>
-        <p className="mt-6 text-xs opacity-60">© 2026 SL NextGen Digital | Hot Springs Village, AR</p>
+
+
+      <section id="contact" className="bg-[#F97316] py-16 px-6 text-center">
+        <h2 className="text-3xl font-black text-white mb-4">Ready to Compete With the Big Players?</h2>
+        <p className="text-white opacity-90 mb-8">Built by a mechanic and a writer — 27 years of synergy, zero fluff.</p>
+        <a href="mailto:Lb.designstudio.2024@gmail.com" className="bg-white text-[#F97316] px-10 py-4 rounded-full font-bold inline-block">Email Us Today</a>
+        <p className="mt-8 text-xs text-white opacity-60">2026 SL NextGen Digital | Hot Springs Village, AR</p>
       </section>
     </main>
   );
