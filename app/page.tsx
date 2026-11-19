@@ -3,8 +3,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0F172A]">
       <nav className="p-6 flex justify-between items-center">
-        <div className="text-xl font-bold text-white">SL NextGen Digital</div>
-        <a href="#contact" className="bg-[#F97316] text-white px-4 py-2 rounded-md font-bold">Get Started</a>
+        <a href="/" className="text-xl font-bold text-white">SL NextGen Digital</a>
+        <div className="flex flex-wrap items-center justify-end gap-4"><a href="https://my-portfolio-rho-lovat.vercel.app" className="text-blue-100 hover:text-white underline-offset-4 hover:underline">Meet Loren</a><a href="https://lorenbarnhart.vercel.app" className="text-blue-100 hover:text-white underline-offset-4 hover:underline">His Books</a><a href="#contact" className="bg-[#F97316] text-white px-4 py-2 rounded-md font-bold">Contact</a></div>
       </nav>
 
 
@@ -21,6 +21,7 @@ export default function Home() {
         <h2 className="text-3xl font-black text-white mb-6">Our Story</h2>
         <p className="text-blue-200 text-lg mb-6">Loren spent over a decade diagnosing electrical faults in cars — chasing shorts, reading wiring diagrams, fixing what others could not. When disability forced him off the shop floor, he brought that same precision to the digital world. Together with Stacy — his partner of 27 years — they built SL NextGen Digital from scratch. No investors. No agency. Just mechanical thinking applied to digital systems.</p>
       </section>
+      <section aria-labelledby="people" className="px-6 pb-16 max-w-4xl mx-auto text-center"><h2 id="people" className="text-3xl font-black text-white mb-4">The people behind the products</h2><p className="text-blue-200 text-lg mb-6">SL NextGen is the technology side of Loren and Stacy’s story. Want to see the creator’s work—or discover Loren’s books? Explore the connected sites below.</p><div className="flex flex-wrap justify-center gap-4"><a className="border border-blue-300 text-white rounded-lg px-6 py-3 font-bold hover:bg-white/10" href="https://my-portfolio-rho-lovat.vercel.app">Loren’s portfolio ↗</a><a className="border border-blue-300 text-white rounded-lg px-6 py-3 font-bold hover:bg-white/10" href="https://lorenbarnhart.vercel.app">Loren’s author site ↗</a></div></section>
       <section className="px-6 pb-20 max-w-6xl mx-auto">
         <h2 className="text-3xl font-black text-white text-center mb-12">What We Build For You</h2>
         <div className="grid grid-cols-1 gap-6">
