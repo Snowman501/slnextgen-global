@@ -10,9 +10,9 @@ export default function Home() {
 
 
       <section className="pt-16 pb-24 px-6 text-center">
-        <h1 className="text-4xl font-black text-white mb-6">We Build AI Systems That Grow Small Businesses</h1>
-        <p className="text-lg text-blue-200 max-w-2xl mx-auto mb-10">From automated lead generation to done-for-you content engines.</p>
-        <a href="#contact" className="bg-[#F97316] text-white px-10 py-4 rounded-full font-bold inline-block">Book a Free Strategy Call</a>
+        <h1 className="text-4xl font-black text-white mb-6">Practical Digital Tools. Built With People in Mind.</h1>
+        <p className="text-lg text-blue-200 max-w-2xl mx-auto mb-10">Explore our public work, free tools, and developing software. Paid services are temporarily paused while we review delivery and payment arrangements.</p>
+        <a href="https://my-portfolio-rho-lovat.vercel.app" className="bg-[#F97316] text-white px-10 py-4 rounded-full font-bold inline-block">Explore our work</a>
       </section>
 
 
@@ -23,22 +23,22 @@ export default function Home() {
       </section>
       <section aria-labelledby="people" className="px-6 pb-16 max-w-4xl mx-auto text-center"><h2 id="people" className="text-3xl font-black text-white mb-4">The people behind the products</h2><p className="text-blue-200 text-lg mb-6">SL NextGen is the technology side of Loren and Stacy’s story. Want to see the creator’s work—or discover Loren’s books? Explore the connected sites below.</p><div className="flex flex-wrap justify-center gap-4"><a className="border border-blue-300 text-white rounded-lg px-6 py-3 font-bold hover:bg-white/10" href="https://my-portfolio-rho-lovat.vercel.app">Loren’s portfolio ↗</a><a className="border border-blue-300 text-white rounded-lg px-6 py-3 font-bold hover:bg-white/10" href="https://lorenbarnhart.vercel.app">Loren’s author site ↗</a></div></section>
       <section className="px-6 pb-20 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-black text-white text-center mb-12">What We Build For You</h2>
+        <h2 className="text-3xl font-black text-white text-center mb-4">Projects and capabilities</h2><p className="text-blue-200 text-center mb-10">Examples of work and areas of development—not services currently available to purchase.</p>
         <div className="grid grid-cols-1 gap-6">
           <div className="bg-white p-8 rounded-2xl border-t-4 border-[#1E3A8A]">
             <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">AI Lead Machine</h3>
-            <p className="text-gray-500 mb-4">Automated system that finds local business leads while you sleep.</p>
-            <p className="text-2xl font-black text-[#F97316]">$297 one-time</p>
+            <p className="text-gray-500 mb-4">Experimental lead-research and website-evidence tools. Availability and automation vary by project.</p>
+            <p className="text-2xl font-black text-[#F97316]">Development concept · Not for sale</p>
           </div>
           <div className="bg-white p-8 rounded-2xl border-t-4 border-[#F97316]">
             <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">Content Engine</h3>
-            <p className="text-gray-500 mb-4">30 days of AI-powered social content delivered automatically.</p>
-            <p className="text-2xl font-black text-[#F97316]">$497/month</p>
+            <p className="text-gray-500 mb-4">Content workflow concepts for clearer, more consistent publishing. Not an active subscription service.</p>
+            <p className="text-2xl font-black text-[#F97316]">Development concept · Not for sale</p>
           </div>
           <div className="bg-white p-8 rounded-2xl border-t-4 border-[#1E3A8A]">
             <h3 className="font-bold text-[#1E3A8A] text-xl mb-2">Full AI System</h3>
-            <p className="text-gray-500 mb-4">Complete digital presence — leads, content, web design and automation.</p>
-            <p className="text-2xl font-black text-[#F97316]">$997 full build</p>
+            <p className="text-gray-500 mb-4">Exploring web design, useful automation, and human-centered software. Project scope is reviewed individually.</p>
+            <p className="text-2xl font-black text-[#F97316]">Development concept · Not for sale</p>
           </div>
         </div>
       </section>
@@ -49,16 +49,16 @@ export default function Home() {
         <h2 className="text-3xl font-black text-white text-center mb-12">Why SL NextGen?</h2>
         <div className="grid grid-cols-1 gap-6">
           <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
-            <h3 className="font-bold text-[#1E3A8A] mb-2">We Actually Build It</h3>
-            <p className="text-gray-500">No outsourcing. No templates. We build your system from scratch the same way a mechanic builds an engine.</p>
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Real projects, honest status</h3>
+            <p className="text-gray-500">Visit the portfolio to see selected projects and what is in development. We do not claim untested features are finished.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
-            <h3 className="font-bold text-[#1E3A8A] mb-2">Zero Fluff Guarantee</h3>
-            <p className="text-gray-500">Every dollar you spend goes into the system — not into sales calls, account managers, or fancy offices.</p>
+            <h3 className="font-bold text-[#1E3A8A] mb-2">No surprise checkout</h3>
+            <p className="text-gray-500">Paid services are paused. You can explore public tools and contact us by email without creating an account.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl border-l-4 border-[#F97316]">
             <h3 className="font-bold text-[#1E3A8A] mb-2">Built By People Who Get It</h3>
-            <p className="text-gray-500">We started with nothing and built this with free tools and hard work. We know exactly what small businesses need.</p>
+            <p className="text-gray-500">We started with nothing and built this with free tools and hard work. We listen, test, and keep improving our understanding of what people need.</p>
           </div>
         </div>
       </section>
@@ -66,23 +66,23 @@ export default function Home() {
         <h2 className="text-3xl font-black text-white text-center mb-12">Common Questions</h2>
         <div className="space-y-4">
           <div className="bg-white p-6 rounded-2xl">
-            <h3 className="font-bold text-[#1E3A8A] mb-2">Do I need to know anything about AI?</h3>
-            <p className="text-gray-500">Not at all. We handle everything. You tell us your goals and we build the system.</p>
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Can I try anything for free?</h3>
+            <p className="text-gray-500">Yes. Explore our free website checker and public projects. The checker provides limited, evidence-based observations—not a complete professional audit.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl">
-            <h3 className="font-bold text-[#1E3A8A] mb-2">How fast can you start?</h3>
-            <p className="text-gray-500">Within 48 hours of your first email.</p>
+            <h3 className="font-bold text-[#1E3A8A] mb-2">Are paid services available?</h3>
+            <p className="text-gray-500">Not currently. Paid reviews, subscriptions, and custom builds are temporarily paused. Please do not purchase through older checkout links.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl">
-            <h3 className="font-bold text-[#1E3A8A] mb-2">What if I am not happy?</h3>
-            <p className="text-gray-500">We fix it. We do not stop until your system works.</p>
+            <h3 className="font-bold text-[#1E3A8A] mb-2">How can I get in touch?</h3>
+            <p className="text-gray-500">Email us with a question or project idea. Sending an inquiry does not create an order, subscription, or delivery commitment.</p>
           </div>
         </div>
       </section>
       <section id="contact" className="bg-[#F97316] py-16 px-6 text-center">
-        <h2 className="text-3xl font-black text-white mb-4">Ready to Compete With the Big Players?</h2>
-        <p className="text-white opacity-90 mb-8">Built by a mechanic and a writer — 27 years of synergy, zero fluff.</p>
-        <a href="mailto:Lb.designstudio.2024@gmail.com" className="bg-white text-[#F97316] px-10 py-4 rounded-full font-bold inline-block">Email Us Today</a>
+        <h2 className="text-3xl font-black text-white mb-4">Explore the Work. Ask a Question.</h2>
+        <p className="text-white opacity-90 mb-8">Loren and Stacy believe useful technology should be clear, respectful, and honest about its limits.</p>
+        <a href="mailto:Lb.designstudio.2024@gmail.com" className="bg-white text-[#F97316] px-10 py-4 rounded-full font-bold inline-block">Email a Question</a>
         <p className="mt-8 text-xs text-white opacity-60">2026 SL NextGen Digital | Hot Springs Village, AR</p>
       </section>
     </main>
