@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SL NextGen Digital | Content Architecture',
-  description: 'Husband-and-wife digital agency specializing in 30-day social media systems with 27 years of synergy.',
+  title: 'SL NextGen Digital | Business Software & AI Systems',
+  description: 'Discover business software, AI-assisted systems, and digital services from Loren and Stacy at SL NextGen Digital.',
 }
 
 export default function RootLayout({
